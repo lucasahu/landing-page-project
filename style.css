@@ -10,9 +10,10 @@ html, body {
     border: 2px solid red;
 }
 
+/* COLUMN 1 */
 
 .column-1 {
-    background-color: green;
+    background-color: #1F2937;
 }
 
 .header {
@@ -36,14 +37,21 @@ html, body {
 
 .textbox-title {
     border: 2px solid red;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .textbox-text {
     border: 2px solid white;
+    color: white;
+    font-size: 18px;
 }
 
+/* COLUMN 2 */
+
 .column-2 {
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -53,6 +61,9 @@ html, body {
     border: 2px solid yellow;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .content-2 {
@@ -75,14 +86,28 @@ html, body {
 
 .img-text {
     border: 2px solid blue;
+    font-size: 18px;
+    color: #1F2937;
 }
 
+/* COLUMN 3 */
+
 .column-3 {
-    background-color: blue;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .content-3 {
@@ -91,12 +116,14 @@ html, body {
     border: 2px solid green;
 }
 
+/* COLUMN 4 */
+
 .column-4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color:chocolate;
+    background-color: white;
 }
 
 .content-4 {
@@ -109,14 +136,20 @@ html, body {
 
 .card {
     display: flex;
+    background-color: #3882f6;
 }
 
 .big-text {
     border: 2px solid green;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .small-text {
     border: 2px solid yellow;
+    color: white;
+    font-size: 18px;
 }
 
 .card-button {
@@ -125,3 +158,5 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
+/* FOOTER */
