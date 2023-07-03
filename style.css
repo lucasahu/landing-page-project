@@ -12,6 +12,26 @@ html, body {
 
 /* COLUMN 1 */
 
+.header {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: auto;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    color: white;
+    font-size: 18px;
+}
+
 .column-1 {
     background-color: #1F2937;
 }
